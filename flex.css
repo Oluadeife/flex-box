@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+main {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 125vh;
+  flex-direction: row;
+}
+
+.sedans {
+  width: relative;
+  height: 50%;
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(31, 77%, 52%);
+  padding: 2em;
+}
+
+.sedans h1.suv h1.luxury h1 {
+  font-family: "Big Shoulders Family";
+
+  font-size: 14px;
+  color: hsl(0, 0%, 95%);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-weight: 700;
+}
+
+.sedans p .suv p.luxury p {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.suvs {
+  width: relative;
+  color: hsla(0, 0%, 100%, 0.75);
+  height: 50%;
+  background-color: hsl(184, 100%, 22%);
+  padding: 2em;
+}
+.luxury {
+  width: relative;
+  height: 54.05%;
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(179, 100%, 13%);
+  padding-bottom: 2em;
+}
+
+button {
+  background-color: hsl(0, 0%, 95%);
+  position: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.sedans button {
+  color: hsl(31, 77%, 52%);
+  text-align: center;
+}
+.suvs button {
+  color: hsl(184, 100%, 22%);
+}
+.luxury button {
+  color: hsl(179, 100%, 13%);
+}
